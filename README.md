@@ -1,6 +1,6 @@
 # builderbook-next-mongoose-material-ui
 
-# 🚀 ZZZZZZZZZZZZZZZZZ 🚀
+# 🚀 Open source web application to learn JS stack: React, Material-UI, Next.js, Node.js, Express.js, Mongoose, MongoDB database. 🚀
 
 https://github.com/coding-to-music/builderbook-next-mongoose-material-ui
 
