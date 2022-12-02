@@ -1,6 +1,125 @@
+# builderbook-next-mongoose-material-ui
+
+# 🚀 ZZZZZZZZZZZZZZZZZ 🚀
+
+https://github.com/coding-to-music/builderbook-next-mongoose-material-ui
+
+https://builderbook-next-mongoose-material-ui.vercel.app
+
+From / By https://github.com/async-labs/builderbook
+
+https://builderbook.org/
+
+https://builderbook.org/books/builder-book/introduction
+
+## Environment variables:
+
+```java
+const dev = process.env.NODE_ENV !== 'production';
+const MONGO_URL = process.env.MONGO_URL_TEST;
+
+const port = process.env.PORT || 8000;
+
+name: process.env.SESSION_NAME,
+secret: process.env.SESSION_SECRET,
+
+clientID: process.env.GOOGLE_CLIENTID,
+clientSecret: process.env.GOOGLE_CLIENTSECRET,
+callbackURL: `${ROOT_URL}/oauth2callback`,
+
+region: process.env.AWS_REGION,
+accessKeyId: process.env.AWS_ACCESSKEYID,
+secretAccessKey: process.env.AWS_SECRETACCESSKEY,
+
+from: `Kelly from Builder Book <${process.env.EMAIL_ADDRESS_FROM}>`,
+
+const dev = process.env.NODE_ENV !== 'production';
+const CLIENT_ID = dev ? process.env.GITHUB_TEST_CLIENTID : process.env.GITHUB_LIVE_CLIENTID;
+const API_KEY = dev ? process.env.GITHUB_TEST_SECRETKEY : process.env.GITHUB_LIVE_SECRETKEY;
+
+  signedup: process.env.MAILCHIMP_SIGNEDUP_LIST_ID,
+  purchased: process.env.MAILCHIMP_PURCHASED_LIST_ID,
+};
+
+
+const ROOT_URI = `https://${process.env.MAILCHIMP_REGION}.api.mailchimp.com/3.0`;
+
+Authorization: `Basic ${Buffer.from(`apikey:${process.env.MAILCHIMP_API_KEY}`).toString(
+
+const port = process.env.PORT || 8000;
+const ROOT_URL = `http://localhost:${port}`;
+
+const stripePromise = loadStripe(
+  dev
+    ? process.env.NEXT_PUBLIC_STRIPE_TEST_PUBLISHABLEKEY
+    : process.env.NEXT_PUBLIC_STRIPE_LIVE_PUBLISHABLEKEY,
+
+# Used in server/server.js
+MONGO_URL=
+MONGO_URL_TEST=
+SESSION_SECRET=
+
+# Used in lib/getRootUrl.js
+NEXT_PUBLIC_URL_APP=
+NEXT_PUBLIC_PRODUCTION_URL_APP="https://heroku.builderbook.org"
+
+# Used in server/google.js
+GOOGLE_CLIENTID=
+GOOGLE_CLIENTSECRET=
+
+# Used in server/aws.js
+AWS_ACCESSKEYID=
+AWS_SECRETACCESSKEY=
+AWS_REGION=
+
+# Used in server/models/User.js
+EMAIL_ADDRESS_FROM=
+
+----------
+# All environmental variables above this line are required for successful sign up
+
+# Used in server/github.js
+GITHUB_TEST_CLIENTID=
+GITHUB_LIVE_CLIENTID=
+GITHUB_TEST_SECRETKEY=
+GITHUB_LIVE_SECRETKEY=
+
+# Used in server/stripe.js
+NEXT_PUBLIC_STRIPE_TEST_PUBLISHABLEKEY=
+NEXT_PUBLIC_STRIPE_LIVE_PUBLISHABLEKEY=
+STRIPE_TEST_SECRETKEY=
+STRIPE_LIVE_SECRETKEY=
+STRIPE_TEST_DEMO_BOOK_PRICE_ID=
+STRIPE_LIVE_DEMO_BOOK_PRICE_ID=
+STRIPE_TEST_SECOND_BOOK_PRICE_ID=
+STRIPE_LIVE_SECOND_BOOK_PRICE_ID=
+
+# Used in server/mailchimp.js
+MAILCHIMP_API_KEY=
+MAILCHIMP_REGION=
+MAILCHIMP_PURCHASED_LIST_ID=
+MAILCHIMP_SIGNEDUP_LIST_ID=
+
+# Used in pages/_document.js and pages/_app.js
+NEXT_PUBLIC_GA_MEASUREMENT_ID=
+COOKIE_DOMAIN=".builderbook.org"
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/builderbook-next-mongoose-material-ui.git
+git push -u origin main
+```
+
+
 ![image](https://user-images.githubusercontent.com/26158226/155850630-137ae3be-aa29-487b-a422-e8fb4db634dc.png)
 
-Support Ukraine: [link](https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi)<br>
 
 ## Builder Book
 

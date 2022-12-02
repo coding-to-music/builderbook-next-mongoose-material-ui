@@ -1,5 +1,5 @@
 {
-  "name": "builderbook",
+  "name": "builderbook-next-mongoose-material-ui",
   "version": "0.0.1",
   "license": "MIT",
   "engines": {
@@ -10,6 +10,7 @@
     "dev": "nodemon server/server.js --watch server",
     "build": "next build",
     "start": "node server/server.js",
+    "deploy": "git add . && git commit -m Build && git push",
     "lint": "eslint '**/*.js' '**/*.jsx'",
     "test": "jest --coverage"
   },
